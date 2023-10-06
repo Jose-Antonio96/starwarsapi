@@ -21,9 +21,18 @@ En la carpeta resources
 ## Requisitos
 
 Java 17
-Maven
+Maven 3.9.4
+Spring Boot 3.14
+
+## Dependencias del pom
+
+Spring Boot Web Starter
+H2 Database
+Spring Boot Test Starter
+MySQL Driver
 
 ## Funcionalidades
+
 CRUD de clon, divisiones y tablas
 Crear soldado
 Buscar clones/soldados por planeta
@@ -47,3 +56,8 @@ Actualizar la división y planeta de un clon
     }
 
 ~~~
+
+## Estructura
+
+**PUT /clon** - Actualizar el planeta y division del clon
+**PUT /soldado** - Actualizar el planeta y division del soldado

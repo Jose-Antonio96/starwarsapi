@@ -17,6 +17,20 @@ La BD dispone de las tablas clones, divisiones y planetas.
 En la carpeta resources
 
 
+
+## Requisitos
+
+Java 17
+Maven
+
+## Funcionalidades
+CRUD de clon, divisiones y tablas
+Crear soldado
+Buscar clones/soldados por planeta
+Actualizar la división y planeta de un clon
+
+## Ejemplo de creación de clon/soldado
+
 ~~~
 
 {
@@ -33,14 +47,3 @@ En la carpeta resources
     }
 
 ~~~
-
-## Requisitos
-
-Java 17
-Maven
-
-## Funcionalidades
-CRUD de clon, divisiones y tablas
-Crear soldado
-Buscar clones/soldados por planeta
-Actualizar la división y planeta de un clon

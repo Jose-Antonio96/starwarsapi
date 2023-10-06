@@ -1,5 +1,7 @@
 # Idea de proyecto
 
+## API REST
+
 Dos microservicios, starwarsapi y armadaapi
 
 El api Armada consume Star Wars, que hace de api base para esta.
@@ -31,3 +33,14 @@ En la carpeta resources
     }
 
 ~~~
+
+## Requisitos
+
+Java 17
+Maven
+
+## Funcionalidades
+CRUD de clon, divisiones y tablas
+Crear soldado
+Buscar clones/soldados por planeta
+Actualizar la división y planeta de un clon

@@ -59,5 +59,8 @@ Actualizar la división y planeta de un clon
 
 ## Estructura
 
-**PUT /clon** - Actualizar el planeta y division del clon
-**PUT /soldado** - Actualizar el planeta y division del soldado
+**PUT /clon** - Actualizar el planeta y division del clon.
+**PUT /soldado** - Actualizar el planeta y division del soldado.
+**GET /clones/{planeta}** - Obtener los clones que pertenecen a ese planeta.
+**GET /soldados/{planeta}** - Obtener los soldados que pertenecen a ese planeta.
+
